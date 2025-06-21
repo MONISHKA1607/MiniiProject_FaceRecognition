@@ -5,7 +5,7 @@ import cv2 as cv
 import numpy as np
 
 people = ['Ben Afflek', 'Elton John', 'Jerry Seinfield', 'Madonna', 'Mindy Kaling']
-DIR = r'C:\OPEN_CV\Resources\Faces\train'
+DIR = r'C:\OPEN_CV\Faces\train'
 
 haar_cascade = cv.CascadeClassifier('haar_face.xml')
 
